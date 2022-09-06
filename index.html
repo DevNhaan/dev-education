@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev Education</title>
+    <link rel="icon" type="image/x-icon" href="public/img/logos/logo.svg">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link  href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700
+                &family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+                
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="public/css/app.css">
+
+</head>
+<body>
+    <main class="wrapper">
+        <aside class="sidebar">
+            <div class="sidebar-main">
+                <ul class="sidebar-list">
+                    <li class="sidebar-item">
+                        <a href="#!" class="sidebar-link">
+                            <div class="sidebar-icon">
+                                <ion-icon name="search-outline"></ion-icon>
+                            </div>
+                            <span class="sidebar-name">Explore</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="#!" class="sidebar-link">
+                            <div class="sidebar-icon">
+                                <ion-icon name="trending-up-outline"></ion-icon>
+                            </div>
+                            <span class="sidebar-name">Paths</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="#!" class="sidebar-link">
+                            <div class="stick">New</div>
+                            <div class="sidebar-icon">
+                                <ion-icon name="pulse-outline"></ion-icon>
+                            </div>
+                            <span class="sidebar-name">Assessment</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="#!" class="sidebar-link">
+                            <div class="sidebar-icon">
+                                <ion-icon name="library-outline"></ion-icon>
+                            </div>
+                            <span class="sidebar-name">My courses</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="#!" class="sidebar-link">
+                            <div class="sidebar-icon">
+                                <ion-icon name="ribbon-outline"></ion-icon>
+                            </div>
+                            <span class="sidebar-name">Certificates</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="#!" class="sidebar-link">
+                            <div class="sidebar-icon">
+                                <ion-icon name="cafe-outline"></ion-icon>
+                            </div>
+                            <span class="sidebar-name">Edpresso</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="#!" class="sidebar-link">
+                            <div class="sidebar-icon">
+                                <ion-icon name="person-add-outline"></ion-icon>
+                            </div>
+                            <span class="sidebar-name">Refer a Friend</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="#!" class="sidebar-link">
+                            <div class="sidebar-icon">
+                                <ion-icon name="add-outline"></ion-icon>
+                            </div>
+                            <span class="sidebar-name">Create</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </aside>   
+        <section class="container main">
+            <header class="header">
+                <div class="header-main">
+                    <div class="header-left">
+                        <div class="header-menu" id="sidebar-menu-btn">
+                            <ion-icon name="menu-outline"></ion-icon>
+                        </div>
+                        <div class="header-logo">
+                            <img src="./public/img/logos/logo.svg" alt="" class="header-img">
+                            <span class="header-logo-name">Dev Education</span>
+                        </div>
+                    </div>
+                    <div class="header-right">
+                        <div class="header-search">
+                            <div class="header-search-icon">
+                                <ion-icon name="search-outline"></ion-icon>
+                            </div>
+                            <input type="text" placeholder="Search" class="header-input">
+                        </div>
+                        <div class="header-user dropdown"  data-dropdown>
+                            <div class="header-user-dropdown">
+                                <img src="public/img/user/user.png" alt="" class="header-user-img " data-dropdown-btn>
+                            </div>
+                            <div class="user-menu dropdown-menu">
+                                <div class="user-heading">
+                                    <div class="user-img">
+                                        <img src="public/img/user/user.png" alt="" class="user-img">
+                                    </div>
+                                    <div class="user-view">
+                                        <h4 class="user-name">Trần Hữu Nhân </h4>
+                                        <span class="user-profile">View Profile</span>
+                                    </div>
+                                </div>
+                                <ul class="user-body">
+                                    <li class="user-item">
+                                        <a href="#!" class="user-link">
+                                            <div class="user-icon">
+                                                <ion-icon name="bag-handle-outline"></ion-icon>
+                                            </div>
+                                            <span class="heading-sm">My Purchases</span>
+                                        </a>
+                                    </li>
+                                    <li class="user-item">
+                                        <a href="#!" class="user-link">
+                                            <div class="user-icon">
+                                                <ion-icon name="settings-outline"></ion-icon>
+                                            </div>
+                                            <span class="heading-sm">Account Settings</span>
+                                        </a>
+                                    </li>
+                                    <li class="user-item">
+                                        <a href="#!" class="user-link">
+                                            <div class="user-icon">
+                                                <ion-icon name="sunny-outline"></ion-icon>
+                                            </div>
+                                            <span class="heading-sm">Dark Mode </span>
+                                            <span class="stick">Beta</span>
+                                        </a>
+                                    </li>
+                                    <li class="user-item">
+                                        <a href="#!" class="user-link">
+                                            <div class="user-icon">
+                                                <ion-icon name="log-out-outline"></ion-icon>
+                                            </div>
+                                            <span class="heading-sm">Logout</span>
+                                        </a>
+                                    </li>
+                                </ul>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <section class="content">
+                <div class="banner">
+                    <div class="banner-item">
+                        <img src="./public/img/banner/banner1.png" alt="banner1">
+                    </div>
+                    <div class="banner-item">
+                        <img src="./public/img/banner/banner2.png" alt="banner1">
+                    </div>
+                </div>
+                <div class="heading-hero text-center">Welcome, Tran Huu Nhan!</div>
+                
+                <div class="container container-fluid">
+                    <div class="started">
+                        <div class="started-icon">
+                            <img src="public/img/logos/logo.svg" alt="">
+                        </div>
+                        <p>Get started with our free courses</p>
+                    </div>
+
+
+
+                    <div class="row courses">
+                        <div class="col c-6 m-6 l-4">
+                            <div class="course">
+                                <a href="#!" class="course-img">
+                                    <img src="public/img/courses/course-1.avif" alt="">
+                                </a>
+                                <div class="course-main">
+                                    <div class="course-autor">Educative</div>
+                                    <div class="course-title">Getting Started with braintree API</div>
+                                    <div class="course-desc">
+                                        <div class="course-desc__rating">
+                                            <span class="star-icon">
+                                                <ion-icon name="star"></ion-icon>
+                                            </span>
+                                            4.5
+                                            <p class="course-desc__text">Beginner</p>
+                                        </div>
+                                        <a href="#!" class="course-desc__btn btn btn-outline">
+                                            Preview 
+                                            <span class="course-desc__icon">
+                                                <ion-icon name="arrow-forward-outline"></ion-icon>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col c-6 m-6 l-4">
+                            <div class="course">
+                                <a href="#!" class="course-img">
+                                    <img src="public/img/courses/course-2.avif" alt="">
+                                </a>
+                                <div class="course-main">
+                                    <div class="course-autor">Educative</div>
+                                    <div class="course-title">Integrate Auth0 with Java Servlet Application</div>
+                                    <div class="course-desc">
+                                        <div class="course-desc__rating">
+                                            <span class="star-icon">
+                                                <ion-icon name="star"></ion-icon>
+                                            </span>
+                                            4.5
+                                            <p class="course-desc__text">Beginner</p>
+                                        </div>
+                                        <a href="#!" class="course-desc__btn btn btn-outline">
+                                            Preview 
+                                            <span class="course-desc__icon">
+                                                <ion-icon name="arrow-forward-outline"></ion-icon>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col c-6 m-6 l-4">
+                            <div class="course">
+                                <a href="#!" class="course-img">
+                                    <img src="public/img/courses/course-3.avif" alt="">
+                                </a>
+                                <div class="course-main">
+                                    <div class="course-autor">Educative</div>
+                                    <div class="course-title">Integration With Stripe API</div>
+                                    <div class="course-desc">
+                                        <div class="course-desc__rating">
+                                            <span class="star-icon">
+                                                <ion-icon name="star"></ion-icon>
+                                            </span>
+                                            4.5
+                                            <p class="course-desc__text">Beginner</p>
+                                        </div>
+                                        <a href="#!" class="course-desc__btn btn btn-outline">
+                                            Preview 
+                                            <span class="course-desc__icon">
+                                                <ion-icon name="arrow-forward-outline"></ion-icon>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col c-6 m-6 l-4">
+                            <div class="course">
+                                <a href="#!" class="course-img">
+                                    <img src="public/img/courses/course-4.avif" alt="">
+                                </a>
+                                <div class="course-main">
+                                    <div class="course-autor">Educative</div>
+                                    <div class="course-title">Learn Python 3 from Scratch</div>
+                                    <div class="course-desc">
+                                        <div class="course-desc__rating">
+                                            <span class="star-icon">
+                                                <ion-icon name="star"></ion-icon>
+                                            </span>
+                                            4.5
+                                            <p class="course-desc__text">Beginner</p>
+                                        </div>
+                                        <a href="#!" class="course-desc__btn btn btn-outline">
+                                            Preview 
+                                            <span class="course-desc__icon">
+                                                <ion-icon name="arrow-forward-outline"></ion-icon>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col c-6 m-6 l-4">
+                            <div class="course">
+                                <a href="#!" class="course-img">
+                                    <img src="public/img/courses/course-5.avif" alt="">
+                                </a>
+                                <div class="course-main">
+                                    <div class="course-autor">Educative</div>
+                                    <div class="course-title">Learn Java from Scratch</div>
+                                    <div class="course-desc">
+                                        <div class="course-desc__rating">
+                                            <span class="star-icon">
+                                                <ion-icon name="star"></ion-icon>
+                                            </span>
+                                            4.5
+                                            <p class="course-desc__text">Beginner</p>
+                                        </div>
+                                        <a href="#!" class="course-desc__btn btn btn-outline">
+                                            Preview 
+                                            <span class="course-desc__icon">
+                                                <ion-icon name="arrow-forward-outline"></ion-icon>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col c-6 m-6 l-4">
+                            <div class="course">
+                                <a href="#!" class="course-img">
+                                    <img src="public/img/courses/course-6.avif" alt="">
+                                </a>
+                                <div class="course-main">
+                                    <div class="course-autor">Educative</div>
+                                    <div class="course-title">Learn HTML, CSS, and JavaScript from Scratch</div>
+                                    <div class="course-desc">
+                                        <div class="course-desc__rating">
+                                            <span class="star-icon">
+                                                <ion-icon name="star"></ion-icon>
+                                            </span>
+                                            4.5
+                                            <p class="course-desc__text">Beginner</p>
+                                        </div>
+                                        <a href="#!" class="course-desc__btn btn btn-outline">
+                                            Preview 
+                                            <span class="course-desc__icon">
+                                                <ion-icon name="arrow-forward-outline"></ion-icon>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col c-6 m-6 l-4">
+                            <div class="course">
+                                <a href="#!" class="course-img">
+                                    <img src="public/img/courses/course-9.avif" alt="">
+                                </a>
+                                <div class="course-main">
+                                    <div class="course-autor">Educative</div>
+                                    <div class="course-title">Learn Dart: First Step to Flutter</div>
+                                    <div class="course-desc">
+                                        <div class="course-desc__rating">
+                                            <span class="star-icon">
+                                                <ion-icon name="star"></ion-icon>
+                                            </span>
+                                            4.5
+                                            <p class="course-desc__text">Beginner</p>
+                                        </div>
+                                        <a href="#!" class="course-desc__btn btn btn-outline">
+                                            Preview 
+                                            <span class="course-desc__icon">
+                                                <ion-icon name="arrow-forward-outline"></ion-icon>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col c-6 m-6 l-4">
+                            <div class="course">
+                                <a href="#!" class="course-img">
+                                    <img src="public/img/courses/course-8.avif" alt="">
+                                </a>
+                                <div class="course-main">
+                                    <div class="course-autor">Educative</div>
+                                    <div class="course-title">Build Your Own Chatbot in Python</div>
+                                    <div class="course-desc">
+                                        <div class="course-desc__rating">
+                                            <span class="star-icon">
+                                                <ion-icon name="star"></ion-icon>
+                                            </span>
+                                            4.5
+                                            <p class="course-desc__text">Beginner</p>
+                                        </div>
+                                        <a href="#!" class="course-desc__btn btn btn-outline">
+                                            Preview 
+                                            <span class="course-desc__icon">
+                                                <ion-icon name="arrow-forward-outline"></ion-icon>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col c-6 m-6 l-4">
+                            <div class="course">
+                                <a href="#!" class="course-img">
+                                    <img src="public/img/courses/course-7.avif" alt="">
+                                </a>
+                                <div class="course-main">
+                                    <div class="course-autor">Velo by Wix</div>
+                                    <div class="course-title">Build a Custom Membership Website with Velo by Wix</div>
+                                    <div class="course-desc">
+                                        <div class="course-desc__rating">
+                                            <span class="star-icon">
+                                                <ion-icon name="star"></ion-icon>
+                                            </span>
+                                            4.5
+                                            <p class="course-desc__text">Beginner</p>
+                                        </div>
+                                        <a href="#!" class="course-desc__btn btn btn-outline">
+                                            Preview 
+                                            <span class="course-desc__icon">
+                                                <ion-icon name="arrow-forward-outline"></ion-icon>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="show-more-btn">
+                    <div class="btn btn-outline btn-large">
+                        Show More 
+                        <span class="show-more-btn-icon">
+                            <ion-icon name="arrow-down-outline"></ion-icon>
+                        </span>
+                    </div>
+                    
+                </div>
+                <div class="explore">
+                    <div class="explore-main">
+                        <h1>Take your skills to the next level.</h1>
+                        <div class="btn btn-fill explore-btn">Explore all Courses & Paths</div>
+                    </div>
+                </div>
+            </section>
+            <footer class="footer">
+                <div class="footer-main">
+                    <div class="footer-heading">
+                        <div class="footer-heading-wrp">
+                            <img src="./public/img/logos/logo.svg" alt="" class="header-img">
+                            <span class="header-logo-name">Dev Education</span>
+                        </div>
+                        <p>Learn in-demand tech skills in half the time</p>
+                        <p class="line"></p>
+                    </div>
+                    <div class="footer-content">
+                        <div class="row">
+                            <ul class="footer-list col c-6 m-4 l-3">
+                                <li class="footer-item"> <a href="#!"> SOLUTIONS</a></li>
+                                <li class="footer-item"> <a href="#!"> For Enterprise</a></li>
+                                <li class="footer-item"> <a href="#!"> For Individuals</a></li>
+                                <li class="footer-item"> <a href="#!"> For HR & Recruiting</a></li>
+                                <li class="footer-item"> <a href="#!"> For Bootcamps</a></li>
+                            </ul>
+                            <ul class="footer-list col c-6 m-4 l-3">
+                                <li class="footer-item"> <a href="#!"> PRODUCTS</a></li>
+                                <li class="footer-item"> <a href="#!">Educative Learning</a></li>
+                                <li class="footer-item"> <a href="#!">Educative Onboarding</a></li>
+                                <li class="footer-item"> <a href="#!">Educative Skill Assessments</a></li>
+                                <li class="footer-item"> <a href="#!">Educative Projects</a></li>
+                            </ul>
+                            <ul class="footer-list col c-6 m-4 l-3">
+                                <li class="footer-item"> <a href="#!"> PRICING</a></li>
+                                <li class="footer-item"> <a href="#!">For Enterprise</a></li>
+                                <li class="footer-item"> <a href="#!"> For Individuals</a></li>
+                                <li class="footer-item"> <a href="#!">Free Trial</a></li>
+                            </ul>
+                            <ul class="footer-list col c-6 m-4 l-3">
+                                <li class="footer-item"> <a href="#!">LEGAL</a></li>
+                                <li class="footer-item"> <a href="#!"> Privacy Policy/a></li>
+                                <li class="footer-item"> <a href="#!"> For Individuals</a></li>
+                                <li class="footer-item"> <a href="#!">Terms of Service</a></li>
+                            </ul>
+                            <ul class="footer-list col c-6 m-4 l-3">
+
+                                <li class="footer-item"> <a href="#!"> CONTRIBUTE</a></li>
+                                <li class="footer-item"> <a href="#!">Become an Author</a></li>
+                                <li class="footer-item"> <a href="#!">Become an Affiliate</a></li>
+                                <li class="footer-item"> <a href="#!">Become a Contributor</a></li>
+                            </ul>
+                            <ul class="footer-list col c-6 m-4 l-3">
+                                <li class="footer-item"> <a href="#!">RESOURCES</a></li>
+                                <li class="footer-item"> <a href="#!">Educative Blog</a></li>
+                                <li class="footer-item"> <a href="#!">EM Hub</a></li>
+                                <li class="footer-item"> <a href="#!">Educative Sessions</a></li>
+                                <li class="footer-item"> <a href="#!">Educative Answers</a></li>
+                            </ul>
+                            <ul class="footer-list col c-6 m-4 l-3">
+                                <li class="footer-item"> <a href="#!"> ABOUT US</a></li>
+                                <li class="footer-item"> <a href="#!">Our Team</a></li>
+                                <li class="footer-item"> <a href="#!">Careers</a></li>
+                                <li class="footer-item"> <a href="#!">Frequently Asked Questions</a></li>
+                                <li class="footer-item"> <a href="#!">Contact Us</a></li>
+                                <li class="footer-item"> <a href="#!">Press</a></li>
+                            </ul>
+                            <ul class="footer-list col c-6 m-4 l-3">
+                                <li class="footer-item"> <a href="#!"> MORE</a></li>
+                                <li class="footer-item"> <a href="#!">GitHub Students Scholarship</a></li>
+                                <li class="footer-item"> <a href="#!">Course Catalog</a></li>
+                                <li class="footer-item"> <a href="#!">Early Access Courses</a></li>
+                                <li class="footer-item"> <a href="#!">Earn Referral Credits</a></li>
+                                <li class="footer-item"> <a href="#!">CodingInterview.com</a></li>
+                            </ul>
+                        </div>
+                        <div class="line"></div>
+                    </div>
+                    <div class="footer-contact">
+                        <div class="footer-social">
+                            <span class="social-icon"><ion-icon name="logo-facebook"></ion-icon></span>
+                            <span class="social-icon"><ion-icon name="logo-linkedin"></ion-icon></span>
+                            <span class="social-icon"><ion-icon name="logo-twitter"></ion-icon></span>
+                            <span class="social-icon"><ion-icon name="logo-youtube"></ion-icon></span>
+                            <span class="social-icon"><ion-icon name="mic-outline"></ion-icon></span>
+                        </div>
+                        <div class="footer-policy">
+                            <p>Copyright ©2022 Educative, Inc. All rights reserved.</p>
+                            <img src="public/img/logos/soc2.svg" alt="policy">
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </section>
+    </main>
+
+    <!-- add slick -->
+    <script src="./public/jquery-3.6.0.slim.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    
+    
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script  src="./public/index.js"></script>
+</body>
+</html>
